@@ -1,0 +1,60 @@
+{
+  "name": "EDITDA",
+  "value": { "amount": "123", "color": "green" },
+  "delta": { "amount": "12%", "color": "green" },
+  "children": [
+    {
+      "name": "Customer Profitability",
+      "value": { "amount": "123", "color": "green" },
+      "delta": { "amount": "12%", "color": "red" },
+      "children": [
+        {
+          "name": "MRR",
+          "value": { "amount": "123", "color": "orange" },
+          "delta": { "amount": "12%", "color": "green" },
+          "children": [
+            {
+              "name": "ACV",
+              "value": { "amount": "123", "color": "orange" },
+              "delta": { "amount": "12%", "color": "red" }
+            }
+          ]
+        },
+        {
+          "name": "Total CAC",
+          "value": { "amount": "123", "color": "green" },
+          "delta": { "amount": "12%", "color": "green" },
+          "children": [
+            {
+              "name": "Customer Success",
+              "value": { "amount": "123", "color": "red" },
+              "delta": { "amount": "12%", "color": "green" }
+            },
+            {
+              "name": "Sales & Marketing",
+              "value": { "amount": "123", "color": "green" },
+              "delta": { "amount": "12%", "color": "green" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NON-CAC related",
+      "value": { "amount": "123", "color": "green" },
+      "delta": { "amount": "12%", "color": "orange" },
+      "children": [
+        {
+          "name": "R&D ",
+          "value": { "amount": "123", "color": "green" },
+          "delta": { "amount": "12%", "color": "green" }
+        },
+        {
+          "name": "G&A",
+          "value": { "amount": "123", "color": "green" },
+          "delta": { "amount": "12%", "color": "green" }
+        }
+      ]
+    }
+  ]
+}
